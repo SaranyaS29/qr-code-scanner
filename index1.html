@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32*32" href="/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+     body 
+     {
+        justify-content:center;
+        text-align:center;
+        background-color:rgb(218, 225, 248);
+        display:flex;
+        flex-direction:column;
+        height:100vh;
+        font-family:Arial,sans-serif;
+        
+     }
+     .img
+     {  
+        display:flex;
+        flex-direction:column;
+        justify-content :center;
+        border-radius:10px
+
+     }
+     .image_container
+     {
+       justify-content:center;
+       display:flex;
+       flex-direction:column;
+       align-items:center;
+        }
+
+    .content
+{
+  display:flex;
+  background-color:white;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  max-width: 250px; 
+  margin: 0 auto; 
+  padding: 0.5px 15px;
+  border-radius:20px;
+}
+#two
+{
+  color:grey;
+  font-style:Roboto, sans-serif;
+}
+
+  </style>
+</head>
+<body>
+<div class="content">
+<figure>
+  <div class="image_container">
+    <img class="img" src="/image-qr-code.png" width="250">
+    <figcaption>
+      <p id="one"><b>Improve your front-end skills by building projects</b>
+        </p>
+    </figcaption>
+  </div> 
+  </figure>
+  <p id="two">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+
+  
+  </div>
+</body>
+</html>
